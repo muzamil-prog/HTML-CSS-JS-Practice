@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice set</title>
+    <link rel="stylesheet" href="stylee.css"><style>
+    
+        @keyframes load {
+            0%{
+                width: 0px;
+            }
+            50%{
+                width: 60px;
+            }
+            100%{
+                width: 1200px;
+            }
+            
+        }
+        @keyframes slide {
+            0%{
+                transform: translate(0vh);
+            }50%{
+                transform: translate(-20vh);
+            }100%{
+                transform: translate(-20vh);
+            }
+            
+        }
+         /* @keyframes rotate {
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+            
+         } */
+        header{
+            height: 123px;
+            width: auto;
+            background-color: black;
+            /* animation: rotate 3s ease-in  infinite 1s; */
+        }
+        main{
+            height: 890px;
+            background-color: blue;
+        }
+        .progress{
+            height: 3px;
+            width: auto;
+            background-color: red;
+            animation: load 3s ease-in-out infinite 1s; 
+            /* animation: rotate 3s ease-in  infinite 1s; */
+
+        }
+        .slide{
+            background-color: white;
+            height: 400px;
+            width: 1220px;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+
+            
+        }
+        image{
+            display: block;
+            margin: 0;
+        }
+        *{
+            margin: 0;padding: 0;
+        }
+        #image1{
+            transform: translate(0vw);
+            animation: slide 3s ease-in-out infinite 2s;
+        }
+        #image2{
+            transform: translate(20vw);
+            animation: slide 3s ease-out infinite 2s;
+        }
+        #image3{
+            transform: translate(30vw);
+            animation: slide 3s ease-in infinite 2s;
+        }
+    </style>
+</head>
+<body>
+    <div class="progress"></div>
+    <header>
+        
+    
+    </header>
+        <main>
+            <div class="slide">
+                <img id="image1" width="400px" height="200px" src="jpg.JPG" alt="">
+                <img id="image2" width="400px" height="200px" src="jpg.JPG" alt="">
+                <img id="image3" width="400px" height="200px" src="jpg.JPG" alt="">
+                 
+            </div>
+
+        </main>
+    
+    
+</body>
+</html>
