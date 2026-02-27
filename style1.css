@@ -1,0 +1,25 @@
+h1{
+    background-color: blue;
+    font-size: 40px;
+    color: white;
+}
+p{
+    font-size: 20px;
+    background-color: red;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-indent: 50px;
+    text-align: justify;
+    color: white;
+}
+h2{
+     background-color: yellow;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+    font-style: italic;
+    list-style: nont;
+    color: white;
+
+
+}
