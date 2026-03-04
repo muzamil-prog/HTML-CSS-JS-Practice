@@ -1,0 +1,78 @@
+        .main{
+            display: flex;
+            justify-content: center;
+            margin-top: 230px;
+        }
+        .box{
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+            border-left: 40px solid rgb(162, 162, 226);
+             border-bottom: 40px solid rgb(162, 162,226); 
+            border-top: 40px solid rgb(162, 162,226);
+        }
+        .rightBo{
+             height: 200px;
+             width: 40px;
+             background-color: rgb(162, 162, 226);
+             margin-left: 160px;
+             display: block;
+             justify-content: space-around;
+        }
+        .circle1{
+            width: 40px;
+            height: 40px;
+             background-color: rgb(87, 241, 82);
+             border-radius: 40px;
+
+
+        }
+        .circle2{
+            width: 40px;
+            height: 40px;
+             background-color: rgb(87, 241, 82);
+             border-radius: 40px;
+
+
+        }.circle3{
+            width: 40px;
+            height: 40px;
+             background-color: rgb(87, 241, 82);
+             border-radius: 40px;
+
+
+        }.circle4{
+            width: 40px;
+            height: 40px;
+             background-color: rgb(87, 241, 82);
+             border-radius: 40px;
+
+
+        }
+        .circle5{
+            width: 40px;
+            height: 40px;
+             background-color: rgb(87, 241, 82);
+             border-radius: 40px;
+
+
+        }
+        .content{
+            float: left;
+            color: red;
+            height: 50px;
+            width: 80px;
+            border: solid yellow;
+            margin: 40px;
+            text-align: center;
+            align-items: center;
+            margin-top: 75px;
+            
+
+        }
+        .content p{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: large;
+        }
