@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    
+  font-family: "Poppins",   sans-serif;
+   font-weight: 100;
+   font-style: normal;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.03rem;
+
+}
+body{
+    background-color: rgba(255, 255, 255, .92)
+}
+:root{
+    --white: #fff;
+    --black-market:#231e41;
+    --light-black-market:#6f6f87;
+    --safron:#f5c332;
+    --dark-gray:#f2f3f5;
+    --light-gray:#f9fafc;
+}
+/* baics style  */
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+   max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+/* style nav bar  */
+
+.navbar{
+    background-color: rgba(255, 255, 255, .92) !important;
+    height: 7.5rem;
+    border-top: 2px solid var(--light-black-market);
+    border-bottom: 2px solid var(--light-black-market);
+}
+.navbar-brand{
+    color:var(--black-market);
+    font-weight: 60;
+     font-size: 1.4rem;
+     color: var(--black-market); 
+}
+.fa-sharp{
+    color:var(--safron);
+}
+.active, .nav-link:hover{
+    color: var(--safron) !important;
+
+}
+
+.nav-item{
+    padding-inline: 20px;
+}
+.nav-link{
+    font-size: .9rem;
+    color: var(--black-market);
+}
+.nav-icons{
+    padding-inline: .5rem;
+    font-size: 1.2rem;
+}
+.fa-bag-shopping{
+    color: black;
+    background-color: var(--dark-gray);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+
+}
+
+@media screen  and (max-width:990px) {
+
+   .navbar-collapse{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 7.4em);
+    background-color: var(--safron) !important;
+    margin-top: 7.4rem;
+    padding-top: 2rem;
+    background-color: rgba(255, 255, 255, .92);
+    z-index: 99;
+    transform: translateY(60);
+    pointer-events: none;
+    opacity: 0;
+
+   }
+   .navbar-nav{
+    align-items: center;
+    gap: 1rem;
+   }
+   .collapse{
+      transform: translateY(0);
+    pointer-events: all;
+    opacity: 1;
+   }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
