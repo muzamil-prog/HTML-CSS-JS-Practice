@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daraz online </title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    
+
+    .navbar {
+      margin: top 0px;
+      background-color: #f85606 !important;
+      padding: 10px 0;
+    }
+
+    .navbar-brand {
+      color: white !important;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .nav-link {
+      color: white !important;
+    }
+
+    .nav-link.disabled {
+      color: #ddd !important;
+    }
+
+    .search-box input {
+      border: none;
+      border-radius: 2px;
+      padding: 10px;
+      width:100%;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .search-btn {
+      background: #ffe1d2;
+      border: none;
+      color: #f85606;
+      padding: 10px 15px;
+    }
+    .top-bar {
+      margin: bottom 0px;
+  background: #f85606;
+  padding: 3px 0;
+}
+
+.top-links {
+  display: flex;
+  justify-content: flex-end; 
+  list-style: none;
+  
+}
+
+.top-links li {
+  margin-left: 20px;
+}
+
+.top-links a {
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+    .product-card {
+      background: white;
+      border-radius: 5px;
+      padding: 10px;
+      margin-bottom: 20px;
+    
+    }
+
+    
+
+    .product-card img {
+      width: 100%;
+      height: 200px;
+      margin-bottom: 10px;
+    }
+
+    .product-title {
+      font-size: 14px;
+      font-weight: 500;
+      height: 40px; 
+      overflow: hidden;
+    }
+
+    .product-price {
+      font-size: 16px;
+      font-weight: bold;
+      color: #f85606;
+      margin-top: 5px;
+    }
+
+    .product-rating {
+      font-size: 13px;
+      color: #ffa500;
+    }
+  </style>
+</head>
+
+<body>
+  
+<div class="top-bar">
+  <div class="container">
+    <ul class="top-links">
+      <li><a href="#">Save More on App</a></li>
+      <li><a href="#">Sell on Daraz</a></li>
+      <li><a href="#">Help</a></li>
+      <li><a href="#">Login</a></li>
+      <li><a href="#">Sign Up</a></li>
+    </ul>
+  </div>
+</div>
+
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+   <img src="darazlogoo.png"  class="img-fluid" alt="" height="50px" width="100px">
+    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarContent">
+
+     
+
+      <form class="d-flex search-box mx-auto w-50">
+        <input class="form-control me-2" type="search" placeholder="Search">
+        <button class="search-btn">Search</button>
+      </form>
+
+    </div>
+  </div>
+</nav>
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="sliderpic1.avif" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="sliderpic2.avif" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="sliderpic3.avif" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<div class="container my-4">
+  <div class="row g-3">
+  
+    <div class="col-6 col-md-4 col-lg-3">
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9" alt="iPhone 13">
+        <div class="product-title">Apple iPhone 13 </div>
+        <div class="product-price">Rs. 189999</div>
+        <div class="product-rating">⭐⭐⭐⭐⭐ (320)</div>
+      </div>
+    </div>
+
+    
+    <div class="col-6 col-md-4 col-lg-3">
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff" alt="Nike Shoes">
+        <div class="product-title">Nike Air max sports running Shoes</div>
+        <div class="product-price">Rs. 12499</div>
+        <div class="product-rating">⭐⭐⭐⭐☆ (210)</div>
+      </div>
+    </div>
+
+    
+    <div class="col-6 col-md-4 col-lg-3">
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1585386959984-a4155224a1ad" alt="Headphones">
+        <div class="product-title">Wireless bluetooth noise cancelling headphones</div>
+        <div class="product-price">Rs. 2999</div>
+        <div class="product-rating">⭐⭐⭐⭐☆ (200)</div>
+      </div>
+    </div>
+
+    
+    <div class="col-6 col-md-4 col-lg-3">
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1593359677879-a4bb92f829d1" alt="Smart TV">
+        <div class="product-title">Samsung 55" 4K Ultra HD Smart LED TV</div>
+        <div class="product-price">Rs. 134999</div>
+        <div class="product-rating">⭐⭐⭐⭐⭐ (340)</div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+  
