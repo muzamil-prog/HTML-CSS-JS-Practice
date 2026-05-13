@@ -1,39 +1,32 @@
 {
-  "name": "new-app",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/dom": "^10.4.1",
-    "@testing-library/jest-dom": "^6.9.1",
-    "@testing-library/react": "^16.3.2",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^19.2.5",
-    "react-dom": "^19.2.5",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+  "name": "at-least-node",
+  "version": "1.0.0",
+  "description": "Lightweight Node.js version sniffing/comparison",
+  "keywords": [
+    "semver",
+    "feature"
+  ],
+  "homepage": "https://github.com/RyanZim/at-least-node#readme",
+  "bugs": {
+    "url": "https://github.com/RyanZim/at-least-node/issues"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanZim/at-least-node.git"
+  },
+  "license": "ISC",
+  "author": "Ryan Zimmerman <opensrc@ryanzim.com>",
+  "main": "index.js",
+  "files": [],
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "ava"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "devDependencies": {
+    "ava": "^3.1.0",
+    "rewire": "^4.0.1",
+    "semver": "^7.1.2"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "engines": {
+    "node": ">= 4.0.0"
   }
 }
